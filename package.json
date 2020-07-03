@@ -1,12 +1,22 @@
 {
   "name": "nd01_yargs01",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "description": "explore yargs",
+  "main": "yapp.js",
+  "bin": {
+    "yapp": "./lib/yapp.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "yargs",
+    "typescript"
+  ],
+  "author": "jmo3300@gmx.net",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "@types/yargs": "^15.0.5",
+    "yargs": "^15.3.1"
+  }
 }
